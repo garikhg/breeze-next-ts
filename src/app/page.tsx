@@ -23,6 +23,7 @@ export default function Home() {
                                 ></path>
                             </svg>
                         </div>
+
                         <LoginLinks/>
                     </header>
 
