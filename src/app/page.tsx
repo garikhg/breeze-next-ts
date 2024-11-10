@@ -222,15 +222,21 @@ export default function Home() {
                         </div>
                     </main>
 
-                    <footer
-                        className="flex items-center justify-between py-16 text-center text-sm text-black dark:text-white/70">
+                    <footer className="flex flex-col items-center justify-between gap-4 py-8 text-center text-sm text-black dark:text-white/70 sm:flex-row sm:py-16">
                         <div className="flex items-center gap-1.5">
                             Laravel Breeze + Next.js 15 by <a href="https://hakobyan.vercel.app/" target="_blank"
                                                               className="rounded-sm underline hover:text-black focus:outline-none focus-visible:ring-1 focus-visible:ring-[#FF2D20] dark:hover:text-white">{"Hakobyan"}</a>
                         </div>
-                        <div className="flex items-center">
+                        <div className="flex items-center gap-4">
+                            <a href="https://nextjs.org/"
+                               className="rounded-sm underline hover:text-black focus:outline-none focus-visible:ring-1 focus-visible:ring-[#FF2D20] dark:hover:text-white"
+                            >Next.js</a>
+                            <a href="https://laravel.com/"
+                               className="rounded-sm underline hover:text-black focus:outline-none focus-visible:ring-1 focus-visible:ring-[#FF2D20] dark:hover:text-white"
+                            >Laravel</a>
                             <a href="https://github.com/garikhg/breeze-next-ts"
-                               className="rounded-sm underline hover:text-black focus:outline-none focus-visible:ring-1 focus-visible:ring-[#FF2D20] dark:hover:text-white">GitHub</a>
+                               className="rounded-sm underline hover:text-black focus:outline-none focus-visible:ring-1 focus-visible:ring-[#FF2D20] dark:hover:text-white"
+                            >GitHub</a>
                         </div>
                     </footer>
 
