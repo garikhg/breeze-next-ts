@@ -1,5 +1,5 @@
 import type {Metadata} from "next";
-import {Figtree} from 'next/font/google'
+import {Figtree} from "next/font/google";
 import "./globals.css";
 
 const figtree = Figtree( {
